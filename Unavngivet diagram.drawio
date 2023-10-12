@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-12T07:43:56.336Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="OWaGeAF_niMfCa1JJjWo" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-12T08:07:55.271Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="J1gkvWyoYj7wS5liwQl4" version="22.0.4" type="github">
   <diagram name="Side-1" id="Q0A5hPNJHbHYLwsON3Mq">
     <mxGraphModel dx="4514" dy="1997" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
       <root>
@@ -6,9 +6,6 @@
         <mxCell id="1" parent="0" />
         <mxCell id="-YrrgRc6mskL3BqS07Sb-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry width="2400" height="280" as="geometry" />
-        </mxCell>
-        <mxCell id="-YrrgRc6mskL3BqS07Sb-2" value="Logo Tekst" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;fontSize=50;" vertex="1" parent="1">
-          <mxGeometry x="130" y="125" width="330" height="30" as="geometry" />
         </mxCell>
         <mxCell id="-YrrgRc6mskL3BqS07Sb-3" value="Hjem" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;fontSize=50;" vertex="1" parent="1">
           <mxGeometry x="1210" y="125" width="60" height="30" as="geometry" />
@@ -63,8 +60,29 @@
         <mxCell id="-YrrgRc6mskL3BqS07Sb-26" value="&lt;h1 style=&quot;font-size: 38px;&quot;&gt;Heading&lt;/h1&gt;&lt;p style=&quot;font-size: 38px;&quot;&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontColor=#FFFFFF;fontSize=38;" vertex="1" parent="1">
           <mxGeometry x="110" y="4410" width="810" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="-YrrgRc6mskL3BqS07Sb-27" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry y="5690" width="80" height="80" as="geometry" />
+        <mxCell id="-YrrgRc6mskL3BqS07Sb-27" value="" style="whiteSpace=wrap;html=1;fillColor=#1A1A1A;" vertex="1" parent="1">
+          <mxGeometry y="5380" width="2400" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="-YrrgRc6mskL3BqS07Sb-28" value="Logo Tekst" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;fontSize=50;" vertex="1" parent="1">
+          <mxGeometry x="140" y="135" width="330" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-YrrgRc6mskL3BqS07Sb-29" value="Logo Teskt" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=50;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="130" y="5550" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-YrrgRc6mskL3BqS07Sb-30" value="Virksomhed navn" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=25;whiteSpace=wrap;html=1;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="1780" y="5480" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-YrrgRc6mskL3BqS07Sb-31" value="Adresse" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=25;whiteSpace=wrap;html=1;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="1780" y="5520" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-YrrgRc6mskL3BqS07Sb-32" value="E-mail" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=25;whiteSpace=wrap;html=1;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="1780" y="5560" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-YrrgRc6mskL3BqS07Sb-33" value="Telefon" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=25;whiteSpace=wrap;html=1;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="1780" y="5600" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-YrrgRc6mskL3BqS07Sb-34" value="CVR" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=25;whiteSpace=wrap;html=1;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="1780" y="5640" width="250" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
