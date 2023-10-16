@@ -1,0 +1,123 @@
+
+:root {
+    --primary: rgba(233, 228, 216);
+    --secondary: rgba(42, 51, 76);
+    --accent: rgba(87, 107, 158);
+  }
+
+@media only screen and (max-width: 765px) {
+    .menu{
+        margin-left: 0% !important;
+        margin-right: 0% !important;
+      }
+      .main-content {
+        margin-top: 6vh;
+        margin-left: 5vh !important;
+        margin-right: 5vh !important;
+    }
+  }
+
+  
+*{
+    font-family: 'Raleway', sans-serif;
+}
+
+a {
+    color: inherit; /* blue colors for links too */
+    text-decoration: inherit; /* no underline */
+  }
+
+a:hover {
+    color: var(--secondary);
+}
+
+span {
+    font-weight: bolder;
+}
+
+#head > nav > div > button {
+    border: 0;
+}
+
+.default-container {
+    padding: 0;
+    margin: 0;
+}
+
+
+.top-arrow {
+    color: var(--primary);
+}
+
+.arrow-down {
+    color: white;
+    margin: 10vh;
+    margin-bottom: 100px;
+}
+
+
+.menu{
+    margin-left: 12%;
+    margin-right: 12%;
+  }
+
+#collapsibleNavId {
+    font-weight: bolder;
+}
+
+.carousel .carousel-item .carousel-img {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.carousel-caption {
+    font-size: 1.5em;
+    font-style: italic;
+    text-align: left;
+}
+
+
+.splitter{
+    padding-left: 3%;
+    color: #130E01;
+    background-color: var(--primary);
+    height: 20vh;
+}
+
+.main-content {
+    margin-top: 6vh;
+    margin-left: 20vh;
+    margin-right: 20vh;
+    margin-bottom: 2vh;
+}
+
+.main-content, .project{
+    margin-top: 3vh;
+    margin-left: 20vh;
+    margin-right: 20vh;
+    margin-bottom: 3vh;
+}
+
+
+.main-content h2 {
+    padding-top: 10px;
+}
+
+.main-content img {
+    width: 100vw;
+}
+
+.concept {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+}
+
+
+#footer{
+
+    width: 100%;
+    background-color: var(--primary);
+
+}
