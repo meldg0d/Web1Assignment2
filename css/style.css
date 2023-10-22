@@ -16,8 +16,17 @@
         margin-right: 5vh !important;
     }
   }
-
-  
+  @media only screen and (max-width: 750px) {
+    .menu{
+        margin-left: 0% !important;
+        margin-right: 0% !important;
+      }
+      .main-content {
+        margin-top: 5vh;
+        margin-left: 4vh !important;
+        margin-right: 4vh !important;
+    }
+  }
 *{
     font-family: 'Raleway', sans-serif;
 }
@@ -114,6 +123,9 @@ span {
     object-fit: cover;
 }
 
+.whitespace{
+    margin-top: 8vh;
+}
 
 #footer{
 
