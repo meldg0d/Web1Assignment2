@@ -15,6 +15,7 @@
         margin-top: 5vh;
         margin-left: 4vh !important;
         margin-right: 4vh !important;
+        
     }
   }
 
@@ -37,6 +38,14 @@ span {
 
 #head > nav > div > button {
     border: 0;
+}
+
+.navbar-brand {
+    width: fit-content;
+}
+
+.logo{
+    width: 250px;
 }
 
 .default-container {
