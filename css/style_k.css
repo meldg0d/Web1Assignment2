@@ -5,10 +5,8 @@
     --accent: rgba(87, 107, 158);
   }
 
-@media only screen and (max-width: 765px) {
 
-      .main-content {
-        @media only screen and (min-width: 765px) {
+        @media only screen and (max-width: 765px) {
             /* For tablets: */
             .col-xs-1 {width: 8.33%;}
             .col-xs-2 {width: 16.66%;}
@@ -22,8 +20,22 @@
             .col-xs-10 {width: 83.33%;}
             .col-xs-11 {width: 91.66%;}
             .col-xs-12 {width: 100%;}
-          }
-    }
+
+
+            .main-content {
+                margin-top: 6vh;
+                margin-left: 5vh !important;
+                margin-right: 5vh !important;
+            }
+
+            .kontakt-navn {
+                margin-top: 1vh !important;
+                padding: 0 !important;
+            }
+
+            .kontakt {
+                margin-bottom: 0 !important;
+            }
   }
 
   
@@ -134,10 +146,15 @@ h3 {
     margin-left: 2vh;
 }
 
-#1 {
+.kontakt {
    margin-top: 5vh;
    margin-bottom: 5vh;
    padding-inline-start: 0%;
+   padding-right: 0;
+}
+
+.kontakt-navn{
+    margin-top: 5vh;
 }
 
 #div-0 {
@@ -175,4 +192,13 @@ ul.l {
     padding: 0vh;
     text-align: left;
 }
+
+.card-info {
+    width: 280px;
+}
+
+.list-group-item {
+    padding-bottom: 0;
+}
+
 
