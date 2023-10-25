@@ -115,6 +115,15 @@ span {
 
 .main-content img {
     width: 100vw;
+    -webkit-filter: grayscale(0) blur(0);
+	filter: grayscale(0) blur(0);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.main-content img:hover {
+	-webkit-filter: grayscale(10%) blur(1px);
+	filter: grayscale(40%) blur(0.8px);
 }
 
 .concept {
