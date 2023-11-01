@@ -4,7 +4,7 @@ const paragraph = document.querySelector('.info')
 
 const updateUI = (data) => {
     const projectTitle = data.title;
-    const projectSubTitle = data.subtitle;
+    const projectSubTitle = data.subtitle; 
     const projectparagraph = data.paragraph;
 
 
