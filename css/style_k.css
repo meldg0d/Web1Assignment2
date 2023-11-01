@@ -36,6 +36,10 @@
             .kontakt {
                 margin-bottom: 0 !important;
             }
+
+            .menu {
+                margin: 0% !important;
+            }
   }
 
   
@@ -58,6 +62,14 @@ span {
 
 #head > nav > div > button {
     border: 0;
+}
+
+.navbar-brand {
+    width: fit-content;
+}
+
+.logo{
+    width: 250px;
 }
 
 .default-container {
