@@ -1,19 +1,20 @@
 const title = document.querySelector('h1');
-const subtitle = document.querySelector('#subhead');
+//const subtitle = document.querySelector('#subhead');
 const paragraph = document.querySelector('.info')
 const img = document.querySelector('.img')
 
 const updateUI = (data) => {
-    const projectTitle = data.title;
-    const projectSubTitle = data.subtitle; 
-    const projectparagraph = data.paragraph;
-    const projectImage = data.image;
+
+    const projectTitle = data[0].nameOfProject;
+    //const projectSubTitle = data.subtitle; 
+    const projectparagraph = data[0].paragraph;
+    const projectImage = data[0].image;
 
     // update projectTitle template
     title.innerHTML = `${projectTitle}`
 
     // update SubprojectTitle template
-    subtitle.innerHTML = `${projectSubTitle}`
+    //subtitle.innerHTML = `${projectSubTitle}`
 
     // update SubprojectTitle template
     paragraph.innerHTML = `${projectparagraph}`
@@ -23,7 +24,7 @@ const updateUI = (data) => {
 }
 
 const getProject = async (project) => {
-    const url = '../data/example.json';
+    const url = '../data/web.json';
 
     const response = await fetch(url)
     const data = await response.json();

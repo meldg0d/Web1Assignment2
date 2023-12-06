@@ -1,0 +1,28 @@
+[
+  {
+    "size": 165.0,
+    "numberOfKitchens": 1,
+    "numberOfBathrooms": 2,
+    "numberOfPlumbingRooms": 3,
+    "isNewBuild": false,
+    "type": 1,
+    "nameOfProject": "Naturhuset i Horsens",
+    "budget": "20000",
+    "timeline": 165,
+	"image": "images/concept1.webp",
+	"paragraph": "This is a very long text about many funny things on this site. I hope you enjoy the stay."
+  },
+  {
+    "size": 25680.0,
+    "numberOfKitchens": 1,
+    "numberOfBathrooms": 3,
+    "numberOfPlumbingRooms": 3,
+    "isNewBuild": true,
+    "type": 1,
+    "nameOfProject": "Naturhuset i Randers",
+    "budget": "20000",
+    "timeline": 482,
+	"image": "images/concept2.webp",
+	"paragraph": "This is a very long text about many funny things on this site. I hope you enjoy the stay."
+  }
+]
