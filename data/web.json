@@ -1,28 +1,54 @@
 [
   {
-    "size": 165.0,
+    "size": 150.0,
     "numberOfKitchens": 1,
-    "numberOfBathrooms": 2,
-    "numberOfPlumbingRooms": 3,
-    "isNewBuild": false,
-    "type": 1,
-    "nameOfProject": "Naturhuset i Horsens",
-    "budget": "20000",
-    "timeline": 165,
-	"image": "images/concept1.webp",
-	"paragraph": "This is a very long text about many funny things on this site. I hope you enjoy the stay."
-  },
-  {
-    "size": 25680.0,
-    "numberOfKitchens": 1,
-    "numberOfBathrooms": 3,
-    "numberOfPlumbingRooms": 3,
+    "numberOfBathrooms": 1,
+    "numberOfPlumbingRooms": 2,
     "isNewBuild": true,
     "type": 1,
-    "nameOfProject": "Naturhuset i Randers",
-    "budget": "20000",
-    "timeline": 482,
-	"image": "images/concept2.webp",
-	"paragraph": "This is a very long text about many funny things on this site. I hope you enjoy the stay."
+    "nameOfProject": "Bylivets Boliger",
+    "budget": "100000",
+    "timeline": 10,
+    "projectStatus": true,
+    "projectParagraph": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto dolorum impedit nisi, doloremque velit voluptatibus ad voluptate sapiente ipsa officia et culpa eaque assumenda aliquid asperiores! Quibusdam distinctio natus saepe!",
+    "image": "../images/residential6.jpg"
+  },
+  {
+    "size": 150.0,
+    "numberOfKitchens": 1,
+    "numberOfBathrooms": 1,
+    "numberOfPlumbingRooms": 2,
+    "isNewBuild": true,
+    "type": 1,
+    "nameOfProject": "Urban Oase",
+    "budget": "100000",
+    "timeline": 10,
+    "projectStatus": false,
+    "projectParagraph": "Nullam molestie leo ac odio rutrum condimentum. Nulla eget eros bibendum, dignissim sem non, iaculis arcu. Nam tristique magna ornare sapien laoreet, vel faucibus quam malesuada. Ut finibus justo velit, vitae ultrices lectus auctor sit amet. Mauris convallis tellus eu enim pellentesque molestie. Nullam vestibulum nisl feugiat elit bibendum suscipit. Nullam efficitur nec urna a ullamcorper.",
+    "image": "../images/residential7.jpg"
+  },
+  {
+    "size": 350.0,
+    "numberOfFloors": 3,
+    "intendedUse": "Ukendt",
+    "type": 2,
+    "nameOfProject": "Kaffekultur Central",
+    "budget": "100000",
+    "timeline": 10,
+    "projectStatus": true,
+    "projectParagraph": "Fusce bibendum, diam eget venenatis lobortis, eros lectus posuere sem, vel auctor neque velit sed magna. Maecenas bibendum ex nec interdum congue. Phasellus ultricies rutrum nisi vel cursus. Proin nec euismod lectus, at suscipit ante. Vivamus gravida volutpat faucibus. Nullam egestas efficitur urna, at ultrices ex semper in.",
+    "image": "../images/commercial1.jpg"
+  },
+  {
+    "size": 350.0,
+    "numberOfFloors": 3,
+    "intendedUse": "Ukendt",
+    "type": 2,
+    "nameOfProject": "Madkunstens Hub",
+    "budget": "100000",
+    "timeline": 10,
+    "projectStatus": true,
+    "projectParagraph": "Proin eu sapien sit amet magna viverra tincidunt. Duis tempor volutpat elementum. Donec mollis dolor et eros luctus venenatis. Mauris quis maximus urna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam varius a velit at aliquam. Donec porttitor dui nec egestas vehicula. Aliquam efficitur suscipit commodo. Curabitur vel tellus fringilla, dictum ex et, fermentum ligula. Ut finibus sodales orci vitae posuere. Aenean consectetur ultricies ligula, sit amet congue ipsum molestie vitae. Etiam et ligula ac diam molestie dictum sit amet sed magna. Nam ut malesuada ante. Integer sed consequat magna, nec faucibus nibh.",
+    "image": "../images/commercial4.jpg"
   }
 ]

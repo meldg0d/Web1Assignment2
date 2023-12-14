@@ -49,123 +49,24 @@
             <div class="main-content">
                 <div class="container-fluid mt-5">
                     <div id="row" class="row">
-                        <table class="table table-hover">
+                        <table id="project-table" class="table table-hover">
                             <thead>
                                 <tr>
                                     <th scope="col">Projektnavn</th>
                                     <th scope="col">Pris</th>
-                                    <th scope="col">M²</th>
+                                    <th scope="col">Stauts</th>
                                     <th scope="col">Tid</th>
                                 </tr>
                             </thead>
                             <tbody>
-                                <tr>
-                                    <th scope="row"><a href="projekt.html">Projekt 1</a></th>
-                                    <td> <a href="projekt.html">25.000.000 -,</a></td>
-                                    <td><a href="projekt.html">800 m²</a></td>
-                                    <td><a href="projekt.html">Igang</a></td>
-                                </tr>
-                                <tr>
-                                    <th scope="row"><a href="projekt2.html">Projekt 2</a></th>
-                                    <td><a href="projekt2.html">9.000.000 -,</a></td>
-                                    <td><a href="projekt2.html">200 m²</a></td>
-                                    <td><a href="projekt2.html">8 uger</a></td>
-                                </tr>
-                                <tr>
-                                    <th scope="row"><a href="#">Projekt 3</th></a>
-                                    <td><a href="#">9.800.000 -,</a></td>
-                                    <td><a href="#">340 m²</a></td>
-                                    <td><a href="#">11 uger</a></td>
-                                </tr>
-                                <tr>
-                                    <th scope="row"><a href="#">Projekt 4</a></th>
-                                    <td><a href="#">31.000.000 -,</a></td>
-                                    <td><a href="#">1200 m²</a></td>
-                                    <td><a href="#">36 uger</a></td>
-                                </tr>
-                                <tr>
-                                    <th scope="row"><a href="#">Projekt 5</a></th>
-                                    <td><a href="#">28.000.000 -,</a></td>
-                                    <td><a href="#">700 m²</a></td>
-                                    <td><a href="#">Igang</a></td>
-                                </tr>
-                                <tr>
-                                    <th scope="row"><a href="#">Projekt 6</a></th>
-                                    <td><a href="#">16.000.000 -,</a></td>
-                                    <td><a href="#">310 m²</a></td>
-                                    <td><a href="#">16 uger</td>
-                                </tr>
+                                 <!-- Table rows will be added here -->
                             </tbody>
                         </table>
-                    </div>
+                        <button id="load-more" onclick="loadMore()">Load More</button>
+                    </div>                
                 </div>
-
-                <div id="first-row" class="row justify-content-start align-items-start g-2 pb-5 mt-5">
-                    <div class="col-12 col-md-6"><a href="projekt.html"><img src="images/product2.jpg" class="img-fluid"
-                                alt=""></a>
-                        <a href="projekt.html">
-                            <h2>Projekt 1</h2>
-                        </a>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto dolorum impedit nisi,
-                            doloremque velit voluptatibus ad voluptate sapiente ipsa officia et culpa eaque assumenda
-                            aliquid asperiores!
-                            Quibusdam distinctio natus saepe!</p>
-                    </div>
-                    <div class="col-12 col-md-5 offset-md-1"><a href="projekt2.html"><img src="images/product1.jpg"
-                                class="img-fluid" alt=""></a>
-                        <a href="projekt2.html">
-                            <h2>Projekt 2</h2>
-                        </a>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto dolorum impedit nisi,
-                            doloremque velit voluptatibus ad voluptate sapiente ipsa officia et culpa eaque assumenda
-                            aliquid asperiores!
-                            Quibusdam distinctio natus saepe!</p>
-                    </div>
-                </div>
-                <div id="second-row" class="row justify-content-start align-items-start g-2 pb-5">
-                    <div class="col-12 col-md-4"><a href="projekt.html"><img src="images/product1.jpg" class="img-fluid"
-                                alt=""></a>
-                        <a href="projekt.html">
-                            <h2>Projekt 3</h2>
-                        </a>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto dolorum impedit nisi,
-                            doloremque velit voluptatibus ad voluptate sapiente ipsa officia et culpa eaque assumenda
-                            aliquid asperiores!
-                            Quibusdam distinctio natus saepe!</p>
-                    </div>
-                    <div class="col-12 col-md-7 offset-md-1"> <a href="projekt2.html"><img src="images/product2.jpg"
-                                class="img-fluid" alt=""></a>
-                        <a href="projekt2.html">
-                            <h2>Projekt 4</h2>
-                        </a>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto dolorum impedit nisi,
-                            doloremque velit voluptatibus ad voluptate sapiente ipsa officia et culpa eaque assumenda
-                            aliquid asperiores!
-                            Quibusdam distinctio natus saepe!</p>
-                    </div>
-                </div>
-                <div id="third-row" class="row justify-content-start align-items-start g-2 pb-5">
-                    <div class="col-12 col-md-6"><a href="projekt.html"><img src="images/product2.jpg" class="img-fluid"
-                                alt=""></a>
-                        <a href="projekt.html">
-                            <h2>Projekt 5</h2>
-                        </a>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto dolorum impedit nisi,
-                            doloremque velit voluptatibus ad voluptate sapiente ipsa officia et culpa eaque assumenda
-                            aliquid asperiores!
-                            Quibusdam distinctio natus saepe!</p>
-                    </div>
-                    <div class="col-12 col-md-5 offset-md-1"><a href="projekt2.html"><img src="images/product1.jpg"
-                                class="img-fluid" alt=""></a>
-                        <a href="projekt2.html">
-                            <h2>Projekt 6</h2>
-                        </a>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto dolorum impedit nisi,
-                            doloremque velit voluptatibus ad voluptate sapiente ipsa officia et culpa eaque assumenda
-                            aliquid asperiores!
-                            Quibusdam distinctio natus saepe!</p>
-                    </div>
-                </div>
+                <div id="first-row"></div>
+                <div id="dynamic-content"></div>
                 <div class="row text-center">
                     <h1><a href="#top"><i class="fa-solid fa-arrow-right fa-rotate-270 float-end"></i></a></h1>
                 </div>
@@ -175,6 +76,7 @@
         <!-- Footer here - go to footer.html to see -->
         <div id="foot"></div>
     </footer>
+    <script src="scripts/projekter.js"></script>
     <!-- Bootstrap JavaScript Libraries -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
         integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">

@@ -1,38 +1,53 @@
-const title = document.querySelector('h1');
-//const subtitle = document.querySelector('#subhead');
-const paragraph = document.querySelector('.info')
-const img = document.querySelector('.img')
+const titles = document.querySelectorAll('.title');
+const paragraphs = document.querySelectorAll('.info');
+const images = document.querySelectorAll('.imgProject');
 
 const updateUI = (data) => {
+  for (let i = 0; i < 4 && i < data.length; i++) {
+    const project = data[i];
+    const projectTitle = project.nameOfProject;
+    const projectParagraph = project.projectParagraph;
+    const projectImage = project.image;
 
-    const projectTitle = data[0].nameOfProject;
-    //const projectSubTitle = data.subtitle; 
-    const projectparagraph = data[0].paragraph;
-    const projectImage = data[0].image;
+    // Update the title, paragraph, and image for each section
+    titles[i].innerHTML = projectTitle;
+    paragraphs[i].innerHTML = projectParagraph;
+    images[i].setAttribute('src', projectImage);
+  }
+};
 
-    // update projectTitle template
-    title.innerHTML = `${projectTitle}`
+const updateUISecondLocation = (data) => {
+    const titles = document.querySelectorAll('.top-title');
+    const images = document.querySelectorAll('.top-image');
+  
+    for (let i = 0; i < 3 && i < data.length; i++) {
+      const project = data[i];
+      const projectTitle = project.nameOfProject;
+      const projectImage = project.image;
+  
+      // Update the title, paragraph, and image for each element in the second location
+      titles[i].innerHTML = projectTitle;
+      images[i].setAttribute('src', projectImage);
+    }
+  };
+  
 
-    // update SubprojectTitle template
-    //subtitle.innerHTML = `${projectSubTitle}`
+const getProjects = async () => {
+  const url = '../data/web.json';
 
-    // update SubprojectTitle template
-    paragraph.innerHTML = `${projectparagraph}`
-    img.setAttribute('src', projectImage);
-
-
-}
-
-const getProject = async (project) => {
-    const url = '../data/web.json';
-
-    const response = await fetch(url)
+  try {
+    const response = await fetch(url);
     const data = await response.json();
-
-
     return data;
-}
+  } catch (err) {
+    console.error(err);
+    throw err;
+  }
+};
 
-getProject('project')
-  .then(data => updateUI(data))
+getProjects()
+.then(data => {
+    updateUI(data); 
+    updateUISecondLocation(data);
+  })
   .catch(err => console.log(err));
