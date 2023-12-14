@@ -26,7 +26,7 @@ const updateUIByHash = (data) => {
             <div class="col-4 col-md-3 pb-3"><span>Status:</span> <br> ${project.projectStatus ? 'Aktiv' : 'Inaktiv'}</div>
             <div class="col-4 col-md-3 pb-3"><span>Budget:</span> <br> ${project.budget},-</div>
             <div class="col-4 col-md-3 pb-3"><span>Tidslinje:</span> <br> ${project.timeline} dage</div>
-            `; // Add more divs as needed
+            `; 
   
           // Check for additional properties based on project type
           switch(project.type) {
@@ -62,7 +62,6 @@ const updateUIByHash = (data) => {
               `;
               break;
               
-            // Add cases for types 3 and 4 as needed
           }
   
           // Update the DOM
