@@ -13,7 +13,7 @@ const updateTable = (data) => {
     let project = data[i];
 
     cell1.innerHTML = `<a href="projekt.html#${i+1}">${project.nameOfProject}</a>`;
-    cell2.innerHTML = `<a href="projekt.html#${i+1}">${project.budget} -,</a>`;
+    cell2.innerHTML = `<a href="projekt.html#${i+1}">${project.budget} ,-</a>`;
     cell3.innerHTML = `<a href="projekt.html#${i+1}">${project.projectStatus ? 'I gang' : 'Afslutted'}</a>`;
     cell4.innerHTML = `<a href="projekt.html#${i+1}">${project.timeline} dage</a>`;
   }
